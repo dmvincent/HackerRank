@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read expression
+#echo "scale=4; ($expression)" | bc -l
+val=$(echo "scale=4; ($expression)" | bc -l)
+printf "%.3f" $val

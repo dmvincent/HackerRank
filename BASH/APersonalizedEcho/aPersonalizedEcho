@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read -t 5 -p "Whats your name?" name
+echo "Welcome $name"

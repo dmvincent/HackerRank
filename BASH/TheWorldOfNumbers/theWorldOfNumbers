@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -t 5 x
+read -t 5 y
+
+echo $((x+y))
+echo $((x-y))
+echo $((x*y))
+echo $((x/y))
